@@ -1,4 +1,4 @@
-# derive-to
+# Derive
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,168 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-derive-to is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://derive.to/
+Derive is an open‑source, self‑hostable platform where teams and AI agents publish, review, and revise work. It provides a collaborative space for AI artifacts, emphasizing openness, community contribution, and flexible deployment. The service aims to streamline AI workflow management and artifact sharing across organizations.
+
+**Areas:** AI · OpenSource · Collaboration · Platform · Community
+
+## Derive on APIs.io
+
+Everything profiled for Derive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/derive-to/](https://apis.io/providers/derive-to/)** — or go straight to one of the APIs or properties below.
+
+### APIs (28)
+
+- [Derive Accounts API](https://apis.io/apis/derive-to/derive-to-accounts-api/) — Model accounts: the credential a machine uses to call a model. Write-only.
+- [Derive Activity API](https://apis.io/apis/derive-to/derive-to-activity-api/) — The Activity API from Derive — 1 operation(s) for activity.
+- [Derive Agents API](https://apis.io/apis/derive-to/derive-to-agents-api/) — Agents: named workers with instructions, a machine, and what they can reach. Also the OAuth agents a user has authorized.
+- [Derive Analytics API](https://apis.io/apis/derive-to/derive-to-analytics-api/) — Aggregate view statistics for an artifact.
+- [Derive Artifacts API](https://apis.io/apis/derive-to/derive-to-artifacts-api/) — Documents (files and bundles): browse, publish, version, restore, and control access.
+- [Derive Assets API](https://apis.io/apis/derive-to/derive-to-assets-api/) — Standalone binary image assets referenced from bundles.
+- [Derive Collections API](https://apis.io/apis/derive-to/derive-to-collections-api/) — Shareable groups of artifacts, each with its own members.
+- [Derive Comments API](https://apis.io/apis/derive-to/derive-to-comments-api/) — Threaded, anchored comments with reactions, edits, and resolution.
+- [Derive Contexts API](https://apis.io/apis/derive-to/derive-to-contexts-api/) — Papers imported from arXiv: each is a read-only Context whose artifact is the paper.
+- [Derive Domains API](https://apis.io/apis/derive-to/derive-to-domains-api/) — Custom domains and vanity subdomains bound to artifacts.
+- [Derive Exports API](https://apis.io/apis/derive-to/derive-to-exports-api/) — The Exports API from Derive — 1 operation(s) for exports.
+- [Derive Favorites API](https://apis.io/apis/derive-to/derive-to-favorites-api/) — The caller's favorited artifacts.
+- [Derive Folders API](https://apis.io/apis/derive-to/derive-to-folders-api/) — The Folders API from Derive — 3 operation(s) for folders.
+- [Derive Follows API](https://apis.io/apis/derive-to/derive-to-follows-api/) — Follow people to build the activity feed.
+- [Derive GitHub API](https://apis.io/apis/derive-to/derive-to-github-api/) — Install-backed GitHub access for reading pull requests and posting comments.
+- [Derive Jobs API](https://apis.io/apis/derive-to/derive-to-jobs-api/) — One unit of agent work: someone asked, a schedule fired, or a graph opened a node. People ask, follow, answer, cancel, and retry; runners pull and report.
+- [Derive Moderation API](https://apis.io/apis/derive-to/derive-to-moderation-api/) — Abuse reports and takedown / reinstate actions.
+- [Derive Notifications API](https://apis.io/apis/derive-to/derive-to-notifications-api/) — The caller's in-app notification feed.
+- [Derive OAuth API](https://apis.io/apis/derive-to/derive-to-oauth-api/) — OAuth 2.1 authorization-server endpoints and sign-in capabilities.
+- [Derive Realtime API](https://apis.io/apis/derive-to/derive-to-realtime-api/) — Live presence and cursor sharing on an artifact.
+- [Derive Review API](https://apis.io/apis/derive-to/derive-to-review-api/) — Review rounds on an artifact: request a review, or send it back with a note.
+- [Derive Session API](https://apis.io/apis/derive-to/derive-to-session-api/) — Identity: the signed-in user, public profiles, and the people directory.
+- [Derive Sharing API](https://apis.io/apis/derive-to/derive-to-sharing-api/) — Per-artifact collaborator roles (shares) layered over the workspace baseline.
+- [Derive Slack API](https://apis.io/apis/derive-to/derive-to-slack-api/) — Slack connection status and integration toggles.
+- [Derive Templates API](https://apis.io/apis/derive-to/derive-to-templates-api/) — The Templates API from Derive — 6 operation(s) for templates.
+- [Derive Vitals API](https://apis.io/apis/derive-to/derive-to-vitals-api/) — Client-reported web-vitals ingestion.
+- [Derive Webhooks API](https://apis.io/apis/derive-to/derive-to-webhooks-api/) — Outgoing webhooks and their delivery log.
+- [Derive Workspace API](https://apis.io/apis/derive-to/derive-to-workspace-api/) — The workspace itself: members, settings, invitations, and switching.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Derive To Webhooks](https://apis.io/asyncapis/derive-to/derive-to-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Derive To Agentic Access](https://apis.io/agentic-access/derive-to/derive-to-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/derive-to/derive-to-agent/)
+- [Artifact](https://apis.io/schemas/derive-to/derive-to-artifact/)
+- [Collection](https://apis.io/schemas/derive-to/derive-to-collection/)
+- [Comment](https://apis.io/schemas/derive-to/derive-to-comment/)
+- [ContextAnalysisInfo](https://apis.io/schemas/derive-to/derive-to-context-analysis-info/)
+- [Job](https://apis.io/schemas/derive-to/derive-to-job/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Derive To Context](https://apis.io/jsonld/derive-to/derive-to-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Derive To Openapi Overlay](https://apis.io/overlays/derive-to/derive-to-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Derive API Rules](https://apis.io/rules/derive-to/derive-to-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Derive To Domain Security](https://apis.io/security/derive-to/derive-to-domain-security/)
+- [Derive To Vulnerability Disclosure](https://apis.io/security/derive-to/derive-to-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Derive To Plans Pricing](https://apis.io/plans/derive-to/derive-to-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://derive.to/)
+- [Documentation](https://docs.derive.to/)
+- [Getting started](https://docs.derive.to/self-hosting/quickstart)
+- [API reference](https://docs.derive.to/reference/api/)
+- [Pricing](https://derive.to/pricing)
+- [Blog](https://derive.to/blog)
+- [Security](https://derive.to/security)
+- [Privacy policy](https://derive.to/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.0** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 49.5 |
+
+**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/derive-to/](https://apis.io/providers/derive-to/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Derive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/derive-to/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
